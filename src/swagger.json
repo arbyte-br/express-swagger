@@ -23,7 +23,7 @@
         "/getUser": {
             "get": {
                 "tags": [
-                    "Users"
+                    "Usuários"
                 ],
                 "summary": "Retorna todos os usuários do banco de dados",
                 "responses": {
@@ -47,7 +47,7 @@
         "/createUser": {
             "post": {
                 "tags": [
-                    "Users"
+                    "Usuários"
                 ],
                 "summary": "Insere um novo usuário no banco de dados",
                 "requestBody": {
@@ -78,7 +78,7 @@
             "put": {
                 "summary": "Atualiza o usuário correspondente ao ID",
                 "tags": [
-                    "Users"
+                    "Usuários"
                 ],
                 "requestBody": {
                     "description": "Propriedades do usuário",
@@ -121,7 +121,7 @@
             "delete": {
                 "summary": "Deleta o usuário correspondente ao ID",
                 "tags": [
-                    "Users"
+                    "Usuários"
                 ],
                 "parameters": [{
                     "in": "path",
