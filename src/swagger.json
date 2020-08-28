@@ -127,7 +127,7 @@
                     "in": "path",
                     "name": "id",
                     "required": true,
-                    "description": "ID do usuário que iremos atualizar",
+                    "description": "ID do usuário que iremos apagar",
                     "schema": {
                         "$ref": "#/definitions/id"
                     }
